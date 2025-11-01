@@ -82,7 +82,7 @@ $(TARGET)-objs += src/modules/ksyms/p_resolve_ksym.o \
                   src/modules/exploit_detection/p_exploit_detection.o \
                   src/p_lkrg_main.o
 
-
+@echo $(MAKE)
 all:
 #	$(MAKE) -C $(KERNEL) M=$(P_PWD) modules CONFIG_DEBUG_SECTION_MISMATCH=y
 	$(MAKE) -C $(KERNEL) M=$(P_PWD) modules
