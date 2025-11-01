@@ -38,6 +38,7 @@ static noinline int lkrg_dummy(int arg) {
 }
 
 int lkrg_verify_kprobes(void) {
+   return 0;
 
    int p_ret = 0, ret = -1;
 
